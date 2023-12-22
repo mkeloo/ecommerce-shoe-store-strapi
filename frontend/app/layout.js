@@ -1,8 +1,9 @@
-import { Inter, Oswald } from 'next/font/google';
+import { Inter, Oswald, Urbanist } from 'next/font/google';
 import './globals.css';
 
 // const inter = Inter({ subsets: ['latin'] });
-const inter = Oswald({ subsets: ['latin'] });
+// const inter = Oswald({ subsets: ['latin'] });
+const inter = Urbanist({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'E-Commerce Shoe Store',
